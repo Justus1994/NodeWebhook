@@ -1,5 +1,5 @@
 const http    = require('http');
-const spawn   = require('child_process').exec;
+const exec   = require('child_process').exec;
 
 
 
@@ -12,7 +12,7 @@ http.createServer(function(req, res){
   console.log("running hook.sh");
 
 
-  var deploySh = spawn('sh hook.sh',
+  var deploySh = exec('sh hook.sh',
         (error, stdout, stderr) => {
             console.log(stdout);
             console.log(stderr);
