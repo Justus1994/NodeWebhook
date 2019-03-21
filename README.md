@@ -15,7 +15,7 @@
 
 3. Configure dotenv
 *  Create .env file in root 
-*  Enter value for MY_SECRET*  
+*  Enter value for MY_SECRET
 
 
 4. Configure Webhook as System Service
