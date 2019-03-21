@@ -4,4 +4,4 @@ REPOSITORY="../RepoVm"
 
 cd $REPOSITORY
 
-git pull
+git status
